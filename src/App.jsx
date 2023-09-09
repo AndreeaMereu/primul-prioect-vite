@@ -22,6 +22,7 @@ const TextSite = () => {
     <div>
       <PilatesOnline/>
       <Poza1/>
+      <TextSite/>
     </div>
   );
  }
