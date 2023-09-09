@@ -17,12 +17,27 @@ const TextSite = () => {
   )
 }
 
+const TextSite2 = () => {
+  return (
+    <div>
+    <h2>Beneficii</h2>
+    <p>Joseph Pilates, creatorul acestui program spune ca „Te va face sa te simti mai bine dupa 10 sedinte, vei arata mai bine dupa 20 de sedinte si vei avea un corp complet remodelat dupa 30 de sedinte”.</p>
+    <p>Dezvoltă musculatura</p>
+    <p>Scopul exercițiilor Pilates este să îți dezvolți mușchii în armonie cu restul organismul fără a crea senzația că ridici greutăți două ore pe zi.</p>
+    <p>Creste flexibilitate si echilibrul chiar si in cazul vârstnicilor</p>
+    <p>In Pilates exercițiile fizice sunt sincronizate cu respirația și nimic nu este pe repede înainte. Întinderile, repetările și respirația susțin obținerea flexibilității. Exercițiile Pilates cresc flexibilitate, pun mușchii la treabă îmbunătățesc echilibrul și reduc riscul de cădere/accidentare.
+    Pilates este pentru toată lumea așa că nu este de mirare că aceste exerciții au beneficii chiar și pentru vârstnici.</p>
+    </div>
+  )
+}
+
  const App = () => {
   return (
     <div class="align-center">
       <PilatesOnline/>
       <Poza1/>
       <TextSite/>
+      <TextSite2/>
     </div>
   );
  }
