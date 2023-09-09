@@ -8,7 +8,7 @@ return <img id="img" src="img1.jpeg" alt="pilates" width="500" height="450"/>
 
 const TextSite = () => {
   return (
-    <div class="align-right">
+    <div>
     <h2>Pilates Online</h2>
     <p>Pilates este un antrenament extraordinar care pleaca de la premisa ca un corp sanatos inseamna o legatura permaneta cu mintea.</p>
     <p>Metoda Pilates nu are miscari de impact si astfel este perfect sa faci acasa. Daca nu ai salteluta, pui o patura si esti gata de antrenament.</p>
@@ -19,7 +19,7 @@ const TextSite = () => {
 
  const App = () => {
   return (
-    <div>
+    <div class="align-center">
       <PilatesOnline/>
       <Poza1/>
       <TextSite/>
