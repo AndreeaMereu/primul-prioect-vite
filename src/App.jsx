@@ -1,5 +1,5 @@
 const PilatesOnline = () => {
-  return <h1>Bine ati venit pe pagina noastra</h1>;
+  return <h1 class="text-color">Bine ati venit pe pagina noastra</h1>;
 }
 
 const Poza1 = () => {
@@ -31,13 +31,19 @@ const TextSite2 = () => {
   )
 }
 
+const Poza2 = () => {
+  return <img id="img2" src="sport-acasa.jpeg" alt="pilates" width="700" height="550"/>
+  }
+
  const App = () => {
   return (
     <div class="align-center">
       <PilatesOnline/>
+      <br/>
       <Poza1/>
       <TextSite/>
       <TextSite2/>
+      <Poza2/>
     </div>
   );
  }
